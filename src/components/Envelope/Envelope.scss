@@ -1,0 +1,28 @@
+.envelope
+{
+    border: 1px solid gray;
+    height: 15rem;
+    width: 30rem;
+    position: relative;
+
+    .header 
+    {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+
+        .stamp
+        {
+            position: relative;
+            bottom: 3rem;
+            right: -22rem;
+        }
+    }
+    .content
+    {
+        position: absolute;
+        bottom: 2rem;
+        right: 4rem;
+    }
+    
+}
